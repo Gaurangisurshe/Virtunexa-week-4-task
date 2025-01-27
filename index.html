@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Interview Preparation Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Tech Interview Preparation Portal</h1>
+    </header>
+    <main>
+        <section id="input-section">
+            <h2>Practice Questions</h2>
+            <form id="question-form">
+                <label for="topic">Select Topic:</label>
+                <select id="topic" required>
+                    <option value="" disabled selected>Choose a topic</option>
+                    <option value="algorithms">Algorithms</option>
+                    <option value="data-structures">Data Structures</option>
+                    <option value="system-design">System Design</option>
+                </select>
+                <button type="submit">Get Questions</button>
+            </form>
+        </section>
+        <section id="output-section">
+            <h2>Questions</h2>
+            <div id="questions-container"></div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 Tech Interview Preparation Portal</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
